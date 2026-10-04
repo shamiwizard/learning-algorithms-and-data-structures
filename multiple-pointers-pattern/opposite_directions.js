@@ -32,6 +32,6 @@ function oppsDirect(string) {
   ["aA", "Aa"]
 
 ].forEach((v) => {
-  got = oppsDirect(v[0])
+  let got = oppsDirect(v[0])
   console.log(got, v[1], got === v[1])
 })
